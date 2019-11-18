@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>first</title>
-    <url>/2019/11/18/first/</url>
-    <content><![CDATA[<hr>
-<h2 id="title-hexo-github-搭建博客"><a href="#title-hexo-github-搭建博客" class="headerlink" title="title:hexo+github 搭建博客"></a>title:hexo+github 搭建博客</h2>]]></content>
+    <title>hexo+github 搭建博客</title>
+    <url>/2019/11/18/hexo+github%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="阅读目录"><a href="#阅读目录" class="headerlink" title="阅读目录"></a>阅读目录</h2><ul>
+<li>准备工作</li>
+<li>安装hexo</li>
+<li>创建仓库、添加ssh到github、最后一步发布文章</li>
+<li>总结说明</li>
+</ul>
+<p>一直听说用hexo搭建一个拥有自己域名的博客是很酷炫的事情~，在这十一花上半个小时整个hexo博客岂不美哉。<br>使用Hexo吸引我的是，其简单优雅, 而且风格多变, 适合程序员搭建个人博客,而且支持多平台的搭建，再加上有些node,git基础，分分钟创建出一个高大上的博客。废话少说，开始吧。</p>
+<blockquote>
+<p>$ sudo npm install -g hexo</p>
+</blockquote>
+<p><code>enter code here</code><br>==hexo==</p>
+]]></content>
   </entry>
   <entry>
     <title>Hello World</title>

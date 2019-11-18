@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-18T12:28:44.549Z</updated>
+  <updated>2019-11-18T15:08:56.149Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>first</title>
-    <link href="http://yoursite.com/2019/11/18/first/"/>
-    <id>http://yoursite.com/2019/11/18/first/</id>
+    <title>hexo+github 搭建博客</title>
+    <link href="http://yoursite.com/2019/11/18/hexo+github%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2019/11/18/hexo+github%20%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2019-11-18T12:16:12.987Z</published>
-    <updated>2019-11-18T12:28:44.549Z</updated>
+    <updated>2019-11-18T15:08:56.149Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="title-hexo-github-搭建博客"><a href="#title-hexo-github-搭建博客" class="headerlink" title="title:hexo+github 搭建博客"></a>title:hexo+github 搭建博客</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="阅读目录"><a href="#阅读目录" class="headerlink" title="阅读目录"></a>阅读目录</h2><ul><li>准备工作</li><li>安装hexo</li><li>创建仓库、添加ssh到github、最后一步发布文章</li><li>总结说明</li></ul><p>一直听说用hexo搭建一个拥有自己域名的博客是很酷炫的事情~，在这十一花上半个小时整个hexo博客岂不美哉。<br>使用Hexo吸引我的是，其简单优雅, 而且风格多变, 适合程序员搭建个人博客,而且支持多平台的搭建，再加上有些node,git基础，分分钟创建出一个高大上的博客。废话少说，开始吧。</p><blockquote><p>$ sudo npm install -g hexo</p></blockquote><p><code>enter code here</code><br>==hexo==</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;
-&lt;h2 id=&quot;title-hexo-github-搭建博客&quot;&gt;&lt;a href=&quot;#title-hexo-github-搭建博客&quot; class=&quot;headerlink&quot; title=&quot;title:hexo+github 搭建博客&quot;&gt;&lt;/a&gt;title:hexo+gith
+        &lt;h2 id=&quot;阅读目录&quot;&gt;&lt;a href=&quot;#阅读目录&quot; class=&quot;headerlink&quot; title=&quot;阅读目录&quot;&gt;&lt;/a&gt;阅读目录&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;准备工作&lt;/li&gt;
+&lt;li&gt;安装hexo&lt;/li&gt;
+&lt;li&gt;创建仓库、添加ssh到github、最后一步发布文章
       
     
     </summary>
@@ -44,7 +46,7 @@
     <link href="http://yoursite.com/2019/11/14/hello-world/"/>
     <id>http://yoursite.com/2019/11/14/hello-world/</id>
     <published>2019-11-14T08:53:10.480Z</published>
-    <updated>2019-11-18T11:49:37.743Z</updated>
+    <updated>2019-11-18T15:09:01.799Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! 这是我第一个博客. 点击 <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> 了解更多. 如果你想有一个自己的博客, 你可以进 <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> 或者你可以浏览 <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a><br>More info:<a href="https://baidu.com" target="_blank" rel="noopener">更多</a></p>]]></content>
     
